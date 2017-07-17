@@ -14,7 +14,7 @@ import reducers from 'reducers'
 import Layout from 'conteiners/layout'
 import Phones from 'conteiners/phones'
 
-import Phone from 'containers/phone'
+import Phone from 'conteiners/phone'
 
 
 const store = createStore(reducers, composeWithDevTools(
