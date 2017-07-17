@@ -23,6 +23,8 @@ const store = createStore(reducers, composeWithDevTools(
     applyMiddleware(thunk)
 ));
 
+window.store = store;
+
 const history = syncHistoryWithStore(browserHistory, store);
 
 ReactDOM.render(
